@@ -12,7 +12,8 @@ lapply(c("tidyverse", "rlang", "tableone", "xlsx", "VGAM", "lubridate", "readxl"
 start_date <- as_date("2022-05-02")
 end_date <- as_date("2022-07-24")
 
-source("scripts/01_import/01_import_BA4-BA5.R")
+# specific script to import data from within rivm env.
+#source("scripts/01_import/01_import_BA4-BA5.R")
 
 # determine cut-off points for previous variants
 source("scripts/02_clean/04_previous_variant_cutoff.R")
